@@ -29,11 +29,7 @@ p{
     text-shadow: 2px 2px 4px rgb(0, 26, 255);
     box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
 }
-li{
-    background-color: rgba(255, 0, 0, 0.492);
-    color: rgb(255, 0, 0);
-    display:inline-flexbox;
-}
+
 .myclass1{ color: rgb(36, 181, 26);
     background-color: rgb(12, 0, 74);
     font-size: 30px;
@@ -69,8 +65,16 @@ li{
     box-shadow: rgba(208, 240, 46, 0.4) 0px 5px, rgba(195, 240, 46, 0.3) 0px 10px, rgba(179, 240, 46, 0.2) 0px 15px, rgba(221, 240, 46, 0.1) 0px 20px, rgba(224, 240, 46, 0.05) 0px 25px;
     padding: 20px
 }
-.myclass5{background-color: rgba(0, 255, 42, 0.492);
-    color: rgb(212, 255, 0);
+.myclass5{background-color: rgba(255, 255, 0, 0.449);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgb(255, 0, 0) 0px -12px 30px, rgb(255, 0, 0) 0px 4px 6px, rgb(255, 0, 0) 0px 12px 13px, rgba(255, 0, 0, 0.09) 0px -3px 5px; 
     display:inline-flexbox;
+    border: 5px dotted rgb(63, 153, 51);
 
+}
+
+.myclass6{
+    background-color: rgba(255, 0, 0, 0.558);
+    color: aliceblue;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    display: inline-flexbox;
 }
